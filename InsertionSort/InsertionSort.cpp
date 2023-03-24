@@ -66,3 +66,6 @@ void display() {											// Procedure display
 	cout << "Element Array yang telah tersusun" << endl;	// Output ke layar 
 	cout << "=================================" << endl;    // Output ke layar 
 	
+	for (int j = 0; j < n; j++) {			//	 looping dengna j dimulai dari 0 hingga n-1
+		cout << arr[j] << endl;				// output ke layar 
+	}
