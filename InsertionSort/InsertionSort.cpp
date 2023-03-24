@@ -41,5 +41,11 @@ void insertionsort(){					// Procedure Insertionsort
 		temp = arr[i];					// 2. simpan nilai arr[i] ke variable sementara temp
 
 		j = i - 1;						//3. setting nilai j sama dengan i-1;
+
+		while (j >= 0 && arr[j] > temp) // 4. Looping while dimana nilai j lebih besar sama dengan 0 dan 
+										// arr[j] lebih besar daripada temp 
+		{
+
+		}
 	}
 
