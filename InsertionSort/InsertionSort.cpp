@@ -31,7 +31,7 @@ void input() {						//	Procedure Input
 	}
 }
 
-void insertionsort(){					// Procedure Insertionsort
+void insertionsort() {					// Procedure Insertionsort
 
 	int temp;							//	Membuat variable data temporer atau penyimpanan sementara 
 	int j;								// Membuat variable j sebagai penanda
@@ -55,6 +55,8 @@ void insertionsort(){					// Procedure Insertionsort
 		cout << "\nPass " << i << ": ";			// Output ke layar 
 		for (int k = 0; k < n; k++) {			// Looping nilai k dimulai dari 0 hingga n-1
 			cout << arr[k] << " ";				// Output layar 
-
 		}
 	}
+}
+void display() {					// Procedure display
+	
