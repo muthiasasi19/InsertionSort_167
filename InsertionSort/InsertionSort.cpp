@@ -43,7 +43,7 @@ void insertionsort(){					// Procedure Insertionsort
 		j = i - 1;						//3. setting nilai j sama dengan i-1;
 
 		while (j >= 0 && arr[j] > temp) // 4. Looping while dimana nilai j lebih besar sama dengan 0 dan 
-										// arr[j] lebih besar daripada temp 
+			// arr[j] lebih besar daripada temp 
 		{
 			arr[j + 1] = arr[j];		// 4a. Simpan arr[j] ke dalam variable arr[j+1]
 			j--;						// 4b. Decrement nilai j by 1
@@ -52,7 +52,9 @@ void insertionsort(){					// Procedure Insertionsort
 		arr[j + 1] = temp;			// 5. Simpan nilai temp ke dalam arr[j+1]
 
 
+		cout << "\nPass " << i << ": ";			// Output ke layar 
+		for (int k = 0; k < n; k++) {			// Looping nilai k dimulai dari 0 hingga n-1
+			cout << arr[k] << " ";				// Output layar 
 
-
+		}
 	}
-
