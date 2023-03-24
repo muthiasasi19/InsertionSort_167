@@ -73,6 +73,8 @@ void display() {											// Procedure display
 } 
 
 int main()
-{ 
+{
 	input();		// Memanggil input 
 	insertionsort();	// Memanggil insertion sort
+	display();	// memanggil display 
+} 
